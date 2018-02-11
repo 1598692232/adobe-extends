@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest Version="6.0" ExtensionBundleId="com.xinyue.panel.v1.03" ExtensionBundleVersion="2.1.0" ExtensionBundleName="XINYUE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ExtensionManifest Version="6.0" ExtensionBundleId="com.xinyue.panel.v1.04" ExtensionBundleVersion="2.1.0" ExtensionBundleName="XINYUE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ExtensionList>
-		<Extension Id="com.xinyue.panel.v1.03" Version="1.0" />
+		<Extension Id="com.xinyue.panel.v1.04" Version="1.0" />
 	</ExtensionList>
 	<ExecutionEnvironment>
 		<HostList>
@@ -16,7 +16,7 @@
 	</ExecutionEnvironment>
 
 	<DispatchInfoList>
-		<Extension Id="com.xinyue.panel.v1.03">
+		<Extension Id="com.xinyue.panel.v1.04">
 			<DispatchInfo >
 				<Resources>
 					<MainPath>./index.html</MainPath>
@@ -33,7 +33,7 @@
 				</Lifecycle>
 				<UI>
 					<Type>Panel</Type>
-					<Menu>XINYUE2</Menu>
+					<Menu>XINYUE3.v1.04</Menu>
 					<Geometry>
 						<Size>
 							<Height>460</Height>

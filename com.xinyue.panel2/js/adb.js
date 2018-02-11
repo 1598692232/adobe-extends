@@ -1,6 +1,6 @@
 var request = require('request');
 
-var host = 'http://www.uxinyue.com:81';
+var host = 'http://10.255.1.24:8888';
 console.log(host + '/adb/mainfest.json');
 var options = {
     　　　　　　　method: 'get',

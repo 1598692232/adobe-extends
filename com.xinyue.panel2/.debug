@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <ExtensionList>
-    <Extension Id="com.xinyue.panel.v1.03">
+    <Extension Id="com.xinyue.panel.v1.04">
         <HostList>
         	<Host Name="AEFT" Port="8082"/> 
-           <Host Name="PPRO" Port="8103"/> 
+           <Host Name="PPRO" Port="8105"/> 
         </HostList>
     </Extension>
 </ExtensionList>
