@@ -1,0 +1,164 @@
+{
+	"updates":[
+		{
+			"type":"release",
+			"version":"2.1.0",
+			"date":"January 11th, 2018",
+			"changes":[
+				"The new background uploader allows you to switch between Frame.io projects while a file upload is in progress. Even if your Adobe CC app unexpectedly quits, the new uploader picks up where it left off once you relaunch the app.",
+				"Premiere Pro only: Import markers as comments in your active sequence.  In the comments section, click the 'arrow-down' button at the top and choose 'Upload Markers'"
+			]
+		},
+		{
+			"type":"release",
+			"version":"2.0.4",
+			"date":"November 18th, 2017",
+			"changes":[
+				"Small bug fixes",
+				"Migration to Adobe Add-ons"
+			]
+		},
+		{
+			"type":"release",
+			"version":"2.0.3",
+			"date":"October 24th, 2017",
+			"changes":[
+				"Compatibility with Premiere Pro and After Effects 2018",
+				"Fixed: uploads occasionally not working since the last update 2.0.2",
+				"Fixed: download / import of files to external hard drives did not work",
+				"Fixed: clicking notifications in the notification popover is not redirecting to the appropriate comment",
+				"Fixed: markers timing getting shifted when uploading",
+				"Fixed: Notification settings for 'Everyone' and 'Me' was swapped",
+				"Removed Preferences > Proxy Settings",
+				"(After Effects) annotation drawings were not properly imported with square video formats"
+			]
+		},
+		{
+			"type":"release",
+			"version":"2.0.2",
+			"date":"September 12th, 2017",
+			"changes":[
+				"New: Recently used custom render presets allows for quick access of frequently used preset",
+				"Fixed: the Frame.io extension freezes during the up- or download of bigger files"
+			]
+		},
+		{
+			"type":"release",
+			"version":"2.0.1",
+			"date":"November 18th, 2016",
+			"changes":[
+				"Changed: keep rendered file(s) after upload",
+				"Fixed: disappearing player controls when double-clicking a comment icon",
+				"(AE) fixed failed uploads after rendering finished",
+				"(AE) fixed imported annotation drawings that are misplaced when video/comp has a different aspect ratio than 16:9",
+				"Fixed: malformed links in comments cause the comment section to not scroll or show all comments",
+				"Fixed: Frame.io support chat icon is occasionally not available"
+			]
+		},
+		{
+			"type":"release",
+			"version":"2.0.0",
+			"date":"November 7th, 2016",
+			"changes":[
+				"After Effects CC 2015 (and above) support",
+				"Added lasso selection",
+				"Added Slack notifications switch in project settings",
+				"Enhanced quicklook support",
+				"Fixed: thumbnails occasionally disappear when uploading an active sequence",
+				"Fixed: missing menu option 'Import Comments'",
+				"Fixed: links in comments are not clickable"
+			]
+		},
+		{
+			"type":"release",
+			"version":"1.2.1",
+			"date":"October 12th, 2016",
+			"changes":[
+				"Added proxy server preferences option.",
+				"Added playhead syncing during video playback.",
+				"Enhanced: Drastic speed improvements for indexing. Mainly noticeable for projects with a huge amount of project items.",
+				"Fixed: uploading duplicated sequences does not auto-version.",
+				"Fixed: the upload of the active sequence never starts if the user navigates to other folders during the rendering in Media Encoder.",
+				"Fixed: the render output location has not been memorized when choosing 'Custom Folder..' in the 'Upload Active Sequence' settings.",
+				"Fixed: switching versions in the player doesn´t open the appropriate sequence if the versions are linked to different sequences.",
+				"Fixed: thumbnails are not repositioning and uploaded video thumbs are not selectable.",
+				"Fixed: duplicate markers appearing when importing comments back into an uploaded sequence."
+			]
+		},
+		{
+			"type":"release",
+			"version":"1.2.0",
+			"date":"August 2nd, 2016",
+			"changes":[
+				"Added new features to the comment section as known from the web app. Read receipts, 'New Comments' button, edit comments, comment likes, hide completed comments",
+				"Added md5 checksum verification for file uploads. This verifies if the uploaded file is identical to it´s local source.",
+				"Added indexing. This crawls and caches all assets of your project for faster access.",
+				"Added improvements which prevent the UI to completely freeze during launching the extension (mainly on projects with 3000+ assets). Please note that during indexing the UI might still feel laggy but this is a technical limitation that will be improved by Adobe in the future.",
+				"Added new logo to login screen",
+				"Fixed: when uploading sequences with marker to comment export, occasionally no comments or wrong markers have been uploaded to Frame.io",
+				"Fixed: file upload queue stucks after navigating through folders",
+				"Fixed: in some rare occasions, clicking on a comment does not move the Premiere sequence playhead to the right frame",
+				"Fixed: the user name and the account popup where unavailable for users with long names",
+				"Fixed: support chat not available",
+				"Many smaller fixes not worth mentioning"
+			]
+		},
+		{
+			"type":"release",
+			"version":"1.1.2",
+			"date":"May 11th, 2016",
+			"changes":[
+				"This update fixes an issue that has been introduced with the last update (1.1.1). Sorry for the trouble!"
+			]
+		},
+		{
+			"type":"release",
+			"version":"1.1.1",
+			"date":"May 11th, 2016",
+			"changes":[
+				"Added 'Work Area' to sequence upload settings",
+				"Fixed: occasionally uploads keep hanging and finally fail for unknown reasons",
+				"A lot of smaller fixes"
+			]
+		},
+		{
+			"type":"release",
+			"version":"1.1.0",
+			"date":"May 5th, 2016",
+			"changes":[
+				"Added 'Preferences' to the account menu (which replaces 'Set Scratch Disk' entry)",
+				"Added a Preferences option to enable/disable the 'Automatic Background update'",
+				"Added: The Panel now remembers the last selected comment sorting method",
+				"Added 'Copy link' button to the Share panel",
+				"Added the sequence name to the 'Upload Settings' screen to avoid confusion",
+				"Added no-project & first-project graphics",
+				"Added Keyboard shortcuts (JKL, Space, Arrow keys, cmd/ctrl+A)",
+				"Fixed: Queueing the upload of multiple sequences does not work",
+				"Fixed: Uploaded sequences do not link playheads or do not auto-version",
+				"Fixed: Downloading or Importing files with back- or forward-slashes causes the panel to crash",
+				"Fixed: Having two double quotes in a sequence name breaks the upload",
+				"Fixed: Import comments causes the sequence being populated with  comments from all files of a version stack",
+				"Removed ProRes render presets on Windows",
+				"Smaller fixes"
+			]
+		},
+		{
+			"type":"release",
+			"version":"1.0.1",
+			"date":"Apr 11th, 2016",
+			"changes":[
+				"Fixed: Setting an initial Scratch Disk path while trying to upload the Active Sequence does not work.",
+				"Changed: automatically change the close-X button color of the Share panel to white/black based on the Share panel´s background-color.",
+				"Fixed: (Windows) in the Active Sequence upload settings users are not able to choose a custom preset .epr file."
+			]
+		},
+		{
+			"type":"release",
+			"version":"1.0.0",
+			"date":"Apr 11th, 2016",
+			"changes":[
+				"initial release"
+			]
+		}
+	]
+}
